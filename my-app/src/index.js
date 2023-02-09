@@ -8,12 +8,13 @@ import Hello from './chapter_01/Hello';
 import Wrapper from './chapter_01/Wrapper';
 import Counter from './chapter_02/Counter';
 import InputSamle from './chapter_07/InputSample';
+import UserList from './chapter_08/UserList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <InputSamle />
     
+    <UserList/>
     
   </React.StrictMode>
 );
