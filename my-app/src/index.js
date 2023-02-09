@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Wrapper>
-      <Hello name="React" color="red" />
+      <Hello name="React" color="red" isSpecial/>
       <Hello color="pink" />
     </Wrapper>
     
