@@ -6,14 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import NotificationList from './chapter_06/NotificationList';
 import Hello from './chapter_01/Hello';
 import Wrapper from './chapter_01/Wrapper';
+import Counter from './chapter_02/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Wrapper>
-      <Hello name="React" color="red" isSpecial/>
-      <Hello color="pink" />
-    </Wrapper>
+    <Counter />
+    
     
   </React.StrictMode>
 );
