@@ -9,12 +9,14 @@ import Wrapper from './chapter_01/Wrapper';
 import Counter from './chapter_02/Counter';
 import InputSamle from './chapter_07/InputSample';
 import UserList from './chapter_08/UserList';
+import CreateUser from './chapter_08/CreateUser';
+import User from './chapter_08/User';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    <UserList/>
+    <User/>
     
   </React.StrictMode>
 );
