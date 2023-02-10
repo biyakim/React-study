@@ -3,21 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NotificationList from './chapter_06/NotificationList';
-import Hello from './chapter_01/Hello';
-import Wrapper from './chapter_01/Wrapper';
-import Counter from './chapter_02/Counter';
-import InputSamle from './chapter_07/InputSample';
-import UserList from './chapter_08/UserList';
-import CreateUser from './chapter_08/CreateUser';
-import User from './chapter_08/User';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
-    <User/>
-    
+    <App />
   </React.StrictMode>
 );
 
