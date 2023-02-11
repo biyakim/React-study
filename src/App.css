@@ -1,5 +1,5 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+.todo-item{
+  width:300px;
+  heigth: 50px;
+  border: 1px solid lightblue;
 }
